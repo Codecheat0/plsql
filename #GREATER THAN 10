@@ -1,0 +1,9 @@
+DECLARE
+N1 INTEGER;
+BEGIN
+N1:= :N1;
+IF N1>10 THEN
+dbms_output.put_line('The value is'||N1);
+END IF;
+END;
+/
