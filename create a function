@@ -1,0 +1,8 @@
+create or replace function "DIV"
+(N1 IN NUMBER,N2 IN NUMBER)
+return NUMBER
+as
+begin
+    return N1/N2;
+end "DIV";
+/
