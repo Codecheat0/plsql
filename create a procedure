@@ -1,0 +1,7 @@
+create or replace procedure "SAMEER94"
+(rollno in number,name in varchar,age in number)
+as
+begin
+    insert into sameer_pratice values(rollno,name,age);
+end "SAMEER94";
+/
