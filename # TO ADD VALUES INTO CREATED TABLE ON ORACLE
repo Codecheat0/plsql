@@ -1,0 +1,4 @@
+BEGIN 
+INSERTBATCH2YASH('MANGESH',95,'MANKHUR');
+dbms_output.put_line('Record inserted successfully');
+end;
